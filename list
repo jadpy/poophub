@@ -1,0 +1,6 @@
+local t = {
+["c54ec57e-a520-4e0f-a950-39efb28c8a73"] = true -- kouki 1/24 
+}
+
+local id = game:GetService("RbxAnalyticsService"):GetClientId()
+if not t[id] then return end
