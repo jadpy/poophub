@@ -1,7 +1,1 @@
-local t = {
-["accf1f40-a080-48f1-9c58-168ca3714742"] = true, -- kouki 1/24 
-["9696F119-36E4-4418-ADD2-3CEC13124F3A"] = true
-}
 
-local id = game:GetService("RbxAnalyticsService"):GetClientId()
-if not t[id] then return end
